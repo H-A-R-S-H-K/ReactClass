@@ -9,7 +9,7 @@ function Cart() {
       <ul>
         {Object.keys(cart).map((productId) => (
           <li key={productId}>
-            {cart[productId].title} - Quantity: {cart[productId].quantity}
+            {cart[productId].title} - Quantity: {cart[productId].quantity} - Category: {cart[productId].category}
           </li>
         ))}
       </ul>
